@@ -22,6 +22,7 @@ matrix:
           compiler: g++
         - env: TOOLSET=clang COMPILER=clang++ CXXSTD=c++03 SKIP_CPP17=1 SKIP_CPP11=1
           compiler: clang++
+          dist: trusty
 
 addons:
     apt:
